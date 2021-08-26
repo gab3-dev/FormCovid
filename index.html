@@ -15,41 +15,60 @@
             </fieldset>
             <h1>Questionario</h1>
             <fieldset>
-                <p>Qual é a nomenclatura do coronavírus que está causando a Covid-19?</p><br>
-                <ol type="a">
-                    <li> <input type="radio" name="Q1"><label>CoV-SARS-2</label> </li>    
-                    <li> <input type="radio" name="Q1"><label>COV-SrAR-2.</label> </li>    
-                    <li> <input type="radio" name="Q1"><label>SARS-CoV-2.</label> </li>    
-                    <li> <input type="radio" name="Q1"><label>SARS-CoV-19.</label> </li>    
-                </ol>
-            </fieldset>
-            <br><br>
-            <fieldset>
-                <p>Qual dessas NÃO é uma forma de transmissão do coronavírus?</p><br>
-                <ol type="a">
-                    <li> <input type="radio" name="Q2"><label>Por meio de tosse ou espirro.</label> </li>    
-                    <li> <input type="radio" name="Q2"><label>Contato com animais como pombos, gatos ou cães.</label> </li>    
-                    <li> <input type="radio" name="Q2"><label>Contato pessoal próximo, como toque ou aperto de mão.</label> </li>    
-                    <li> <input type="radio" name="Q2"><label>Contato com objetos ou superfícies contaminadas, seguido então de contato com a boca, nariz ou olhos.</label> </li>    
-                </ol>
-            </fieldset>
-            <br><br>
-            <fieldset>
-                <p>Quando devo procurar um hospital de referência para COVID-19?</p><br>
-                <ol type="a">
-                    <li> <input type="radio" name="Q3"><label>Antes mesmo de sentir algum sintoma, só para garantir.</label> </li>    
-                    <li> <input type="radio" name="Q3"><label>Assim que sentir que está ficando gripado.</label> </li>    
-                    <li> <input type="radio" name="Q3"><label>Só se estiver com falta de ar.</label> </li>    
-                    <li> <input type="radio" name="Q3"><label>Se estiver espirrando muito.</label> </li>    
-                </ol>
-            </fieldset>
-            <fieldset>
-                <label>Qual vacina você tomou?</label><select name="Vacina">
+                <label>1) Qual vacina você tomou?</label>
+                <select name="Vacina">
                     <option value="PF">PFizer</option>
                     <option value="AZ">AstraZeneca</option>
                     <option value="CV">CoronaVac</option>
                     <option value="nulo">Nenhuma</option>
                 </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>2) Alguem do grupo de risco na sua familia?</label>
+                <ol type="a">
+                    <li><input type="radio" name="Q2"><label>Sim</label></li>
+                    <li><input type="radio" name="Q2"><label>Não</label></li>
+                </ol>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>Alguem da sua familia pegou Covid-19? Se sim quantos?</label><select name="Vacina">
+                    <option value="01">Uma pessoa</option>
+                    <option value="02">Duas pessoas</option>
+                    <option value="03">Tres pessoas</option>
+                    <option value="nulo">Nenhuma</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <p>Qual é a nomenclatura do coronavírus que está causando a Covid-19?</p><br>
+                <ol type="a">
+                    <li> <input type="radio" name="Q4"><label>CoV-SARS-2</label> </li>    
+                    <li> <input type="radio" name="Q4"><label>COV-SrAR-2.</label> </li>    
+                    <li> <input type="radio" name="Q4"><label>SARS-CoV-2.</label> </li>    
+                    <li> <input type="radio" name="Q4"><label>SARS-CoV-19.</label> </li>    
+                </ol>
+            </fieldset>
+            <br>
+            <fieldset>
+                <p>Qual dessas NÃO é uma forma de transmissão do coronavírus?</p><br>
+                <ol type="a">
+                    <li> <input type="radio" name="Q5"><label>Por meio de tosse ou espirro.</label> </li>    
+                    <li> <input type="radio" name="Q5"><label>Contato com animais como pombos, gatos ou cães.</label> </li>    
+                    <li> <input type="radio" name="Q5"><label>Contato pessoal próximo, como toque ou aperto de mão.</label> </li>    
+                    <li> <input type="radio" name="Q5"><label>Contato com objetos ou superfícies contaminadas, seguido então de contato com a boca, nariz ou olhos.</label> </li>    
+                </ol>
+            </fieldset>
+            <br>
+            <fieldset>
+                <p>Quando devo procurar um hospital de referência para COVID-19?</p><br>
+                <ol type="a">
+                    <li> <input type="radio" name="Q6"><label>Antes mesmo de sentir algum sintoma, só para garantir.</label> </li>    
+                    <li> <input type="radio" name="Q6"><label>Assim que sentir que está ficando gripado.</label> </li>    
+                    <li> <input type="radio" name="Q6"><label>Só se estiver com falta de ar.</label> </li>    
+                    <li> <input type="radio" name="Q6"><label>Se estiver espirrando muito.</label> </li>    
+                </ol>
             </fieldset>
             <input type="submit" value="Botão enviar">
             <input type="reset" value="Botão apagar">
